@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606c71;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.page-header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+}
+
+.project-link {
+    margin-top: 8rem;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 2rem;
+}
+
+@media screen and (min-width: 64em) {
+    .page-header {
+        padding: 5rem 6rem;
+    }
+    .project-name {
+        font-size: 3.25rem;
+    }
+}
